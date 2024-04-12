@@ -3,7 +3,7 @@ import {login, signInWithGoogle, verifyUserMFA} from "@/firebase/authentication"
 import {useRouter} from "next/router";
 import {notify} from "@/utils/notify";
 import {useRecaptcha} from "@/hooks/useRecaptcha";
-import {useState} from "react";
+import {useState} from 'react';
 import {MultiFactorResolver} from "@firebase/auth";
 import {CodeSignIn} from "@/components/CodeSignIn";
 
